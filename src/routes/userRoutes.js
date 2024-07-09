@@ -9,12 +9,12 @@ router.post('/user', userController.createUser);
 router.get('/users', userController.getUsers);
 
 // Get a user by ID
-router.get('/users/:id', userController.getUser);
+router.get('/user/:id', userController.getUser);
 
 // Update a user by ID
-router.put('/users/:id', userController.updateUser);
+router.put('/user/:id', userController.updateUser);
 
 // Delete a user by ID
-router.delete('/users/:id', userController.deleteUser);
+router.delete('/user/:id', userController.deleteUser);
 
 module.exports = router;
