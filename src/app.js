@@ -12,7 +12,7 @@ connectDB();
 app.use(bodyParser.json());
 
 // Routes
-app.use('/', userRoutes);
+app.use('/v1', userRoutes);
 
 // Start the server
 const PORT = process.env.PORT || 8000;
