@@ -25,20 +25,20 @@ afterAll(async () => {
 });
 
 describe('User CRUD operations', () => {
-  // it('should create a new user', async () => {
-  //   const response = await request(app)
-  //     .post('/v1/user')
-  //     .send({
-  //       name: 'Sandhya',
-  //       email: 'sandhya@sandhya.com',
-  //       age: 32,
-  //     });
+  it('should create a new user', async () => {
+    const response = await request(app)
+      .post('/v1/user')
+      .send({
+        name: 'Sandhya',
+        email: 'sandhya@sandhya.com',
+        age: 32,
+      });
 
-  //   expect(response.status).toBe(201);
-  //   expect(response.body.name).toBe('Sandhya');
-  //   expect(response.body.email).toBe('sandhya@sandhya.com');
-  //   expect(response.body.age).toBe(32);
-  // });
+    expect(response.status).toBe(201);
+    expect(response.body.name).toBe('Sandhya');
+    expect(response.body.email).toBe('sandhya@sandhya.com');
+    expect(response.body.age).toBe(32);
+  });
 
   // it('should fetch all users', async () => {
   //   await User.create({ name: 'Sunder', email: 'sunder@sunder.com', age: 32 });
