@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "TEST_PORT=3001 jest",
     "start": "nodemon src/app.js"
   },
   "keywords": [],

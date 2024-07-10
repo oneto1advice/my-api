@@ -10,6 +10,8 @@ beforeAll(async () => {
     useNewUrlParser: true,
     useUnifiedTopology: true
   });
+  const PORT = process.env.TEST_PORT || 3001;
+  server = app.listen(PORT);
 });
 
 // afterEach(async () => {
