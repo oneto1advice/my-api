@@ -1,5 +1,5 @@
 https://www.youtube.com/watch?v=3jXtTSnA8zw
-In this video we will see how to set GitHub Action for cicd with aws EC2 with an example of nodejs API in hindi
+HiIn this video we will see how to set GitHub Action for cicd with aws EC2 with an example of nodejs API in hindi
 GitHub workflows
 Cicd pipeline and auto deploy to AWS EC2
 CICD pipeline for nodejs express application in hindi 

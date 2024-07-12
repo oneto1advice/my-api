@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = require('../src/app');
 const User = require('../src/models/userModel');
 const dotenv = require('dotenv');
-
+console.log('Hello');
 dotenv.config();
 beforeAll(async () => {
   await mongoose.connect(process.env.MONGO_URL, {
